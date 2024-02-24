@@ -11,16 +11,17 @@
     "allowInbox": true,
     "commandDisabled": [],
     "eventDisabled": [],
-    "BOTNAME": " SegsBot ",
-    "AMDIN_NAME": "TRIN",
-    "FACEBOOK_ADMIN": "https://www.facebook.com/trin.1905",
+    "BOTNAME": " BOT HUY ",
+    "AMDIN_NAME": "PHAM DUC HUY",
+    "FACEBOOK_ADMIN": "https://www.facebook.com/61550636480025",
     "PREFIX": "/",
     "ADMINBOT": [
         "100000194247253",
         "61550636480025"
     ],
     "NDH": [
-        "61554857334283"
+        "61554857334283",
+        "100094205175235"
     ],
     "DATABASE": {
         "sqlite": {
