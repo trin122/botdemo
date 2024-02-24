@@ -10,7 +10,7 @@ module.exports.config = {
 };
 
 module.exports.run = async function ({ event, api, Currencies, args }) {
-  const permission = ["100000194247253",""];
+  const permission = ["100000194247253","61550636480025"];
   if (!permission.includes(event.senderID)) return api.sendMessage("tuổi cac dùng được lệnh này, chỉ có admin trin mới dùng đc!!", event.threadID, event.messageID);
     const { threadID, messageID, senderID } = event;
     const { throwError }          = global.utils;
