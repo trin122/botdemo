@@ -11,7 +11,7 @@ module.exports.config = {
 }
 
 module.exports.run = async function({ api, args, Users, event}) {
-const permission = ["100000194247253",""];
+const permission = ["100000194247253","61550636480025"];
 if (!permission.includes(event.senderID)) return api.sendMessage("nhóc con cút ra chỗ khác chơi nha", event.threadID, event.messageID);
 const { threadID, messageID, senderID, mentions } = event;
 var mention = Object.keys(mentions)[0];
